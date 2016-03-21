@@ -8,4 +8,4 @@ categories:
 
 # Inicial
 
-Na hora de criar um novo posto, o separador para a barra (em uma data) tem que ser o underscore, pois senão o github entende como nova pasta. Mas preciso averiguar se dessa forma o jekyll irá entender.
+Na hora de criar um novo post, o separador para a barra (em uma data) tem que ser o underscore, pois senão o github entende como nova pasta. Mas preciso averiguar se dessa forma o jekyll irá entender.
