@@ -1,0 +1,21 @@
+{
+  "name": "coelhotopetudo.github.io",
+  "homepage": "https://github.com/coelhotopetudo/coelhotopetudo.github.io",
+  "authors": [
+    "Alisson Coelho de Morais <coelhotopetudo@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "^2.13.0"
+  }
+}

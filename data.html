@@ -1,0 +1,12 @@
+<html>
+<head>
+<script type="text/javascript" src="bower_components/moment/moment.js"></script>
+<script type="text/javascript">
+var data1 = moment('19/08/2013 17:56', "DD/MM/YYYY hh:mm");
+var data2 = moment('19/08/2013 19:24', "DD/MM/YYYY hh:mm");
+var diferenca = data2.diff(data1, 'minutes');
+
+console.log(diferenca); // 4
+</script>
+</head>
+</html>
