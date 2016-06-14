@@ -11,7 +11,7 @@ var child;
 var comando = 'mocha --reporter spec --compilers coffee:coffee-script/register';
 
 child = exec(
-  'cd /home/00737990929/git/gitlab.com/coisarada/identificador && ' 
+  'cd /home/coelho/git/gitlab.com/coisarada/identificador && ' 
   + comando, function (error, stdout, stderr) 
   {
     console.log(stdout);
