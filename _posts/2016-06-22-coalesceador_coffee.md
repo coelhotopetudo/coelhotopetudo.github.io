@@ -2,7 +2,7 @@
 layout: post
 ---
 
-        entrada = 'r.v r_v, j.v j_v, co(i.v) i_v, p.p, k.k as k_k'
+        entrada = 'r.v r_v, j.v j_v, coalesce(i.v) i_v, p.p, k.k as k_k'
 
         apelido = (div) ->
           if div.length is 3
