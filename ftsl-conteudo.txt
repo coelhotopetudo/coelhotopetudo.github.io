@@ -1,14 +1,15 @@
-! comprar uma gaitinha de boca para o Arthur
-
 P - Node.js (Básico) #1
-npm
 história
+NPM gerenciador de pacotes (bibliotecas) para node.js
 interpretador javascript no terminal
 poder ter uma aplicação javascript (JSON) de ponta-a-ponta 
 
 P - VI (Básico) #2
 introdução
 história
+macros
+correção para identação
+vários plugins
 mesmo editor em qualquer lugar, mesmo quando não tiver interface gráfica
 teclado sem númerico não tem as teclas Page Up/Down e alguns nem Home/End
 
@@ -16,12 +17,19 @@ P - 1o. campeonato nacional de VI #3
 ? quais serão as regras?
 ? quais serão os prêmios?
 introdução ao VI
-cada bateria consitirá de dois arquivos, um
+cada bateria consitirá de dois arquivos, um como o estado inicial e outro com o estado desejado
+ganhará quem transformar do estado inicial para o desejado com menos comandos
+A tecla Enter será considerada um comando
+o desempate será por tempo
+cada etapa terá um tempo máximo e só será permitida uma tentativa
 
 P - coffee-script (Básico) #4
 ! EcmaScript 6 - engloba várias coisas do CS, necessidade de existência
 um-para-um com javascript
 coisas que o javascript, por exemplo o do nodejs, não tem
+diminuir a imensidão de chaves do JavaScript
+Atom - IDE escrita em CoffeeScript
+
 
 P - desenvolvendo sites colaborativamente (Básico) #5
 http://nome_do_seu_site.github.io
@@ -42,4 +50,5 @@ financeiramente
 testando
 documentando
 compilando
+corrigindo issues fáceis ou de baixo impacto, alguns sites/softwares tem lista específica para isso
 
