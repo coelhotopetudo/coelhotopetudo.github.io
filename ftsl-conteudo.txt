@@ -1,0 +1,45 @@
+! comprar uma gaitinha de boca para o Arthur
+
+P - Node.js (Básico) #1
+npm
+história
+interpretador javascript no terminal
+poder ter uma aplicação javascript (JSON) de ponta-a-ponta 
+
+P - VI (Básico) #2
+introdução
+história
+mesmo editor em qualquer lugar, mesmo quando não tiver interface gráfica
+teclado sem númerico não tem as teclas Page Up/Down e alguns nem Home/End
+
+P - 1o. campeonato nacional de VI #3
+? quais serão as regras?
+? quais serão os prêmios?
+introdução ao VI
+cada bateria consitirá de dois arquivos, um
+
+P - coffee-script (Básico) #4
+! EcmaScript 6 - engloba várias coisas do CS, necessidade de existência
+um-para-um com javascript
+coisas que o javascript, por exemplo o do nodejs, não tem
+
+P - desenvolvendo sites colaborativamente (Básico) #5
+http://nome_do_seu_site.github.io
+repositório GIT para os códigos HTML, CSS e JavaScript do seu site
+poder usar templates com Jekyll
+pode ser usado com um domínio próprio
+por ser um repositório GitHub já vem com Issues, wiki e até um simples planejamento das releases (milestones)
+
+P - documentação de software/biblioteca com GitHub Pages e Jekyll #6
+o que é Jekyll
+links diretos para alterar a documentação diretamente no repositório
+pode usar markdown para quem não conhece HTML, permitindo que pessoas não técnicas
+o que é GHP
+URL GHIO
+
+P - como contribuir com SL #7
+financeiramente
+testando
+documentando
+compilando
+
