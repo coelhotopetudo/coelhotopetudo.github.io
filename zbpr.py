@@ -8,6 +8,7 @@ def carregar(arq):
 colunas = carregar('wcol.txt')
 campos = carregar('yfie.txt')
 faltando = campos - colunas
+faltando = colunas - campos
 for quebrado in faltando:
     campo = quebrado[0:len(quebrado)-1]
     if 'molestia' in campo:
