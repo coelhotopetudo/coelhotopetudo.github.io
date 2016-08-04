@@ -3,6 +3,8 @@ layout: post
 title: 'Gerador de subrelatório para o jasper usando python'
 --- 
 
+Gerador de parametros para jasper, antes 
+
 ```
 # coding: iso8859-1
 def gerar(linhas):
@@ -28,8 +30,9 @@ def gerar(linhas):
           res += '<subreportParameter name="TITULO"><subreportParameterExpression><![CDATA["%(rotulo)s"]]></subreportParameterExpression></subreportParameter>' % vars()
 
           for mes in 'JAN FEV MAR ABR MAI JUN JUL AGO SET OUT NOV DEZ'.split(' '):                                
+            # os dados de entrada terminam com 'JAN'
             prefixado = prefixo[0:len(prefixo)-3] + mes
-            res += '<subreportParameter name="%(mes)s"><subreportParameterExpression><![CDATA[$P{%(prefixado)s}]]></subreportParameterExpression></subreportParameter>' % vars()
+            res += '<subreportParameter name="%(mes)s"><subreportParameterExpression><![CDATA[$P{\%(prefixado)s}]]></subreportParameterExpression></subreportParameter>' % vars()
 
           res += '<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "Mensais_Valores.jasper"]]></subreportExpression></subreport>'
           ycont += tamanho
@@ -37,8 +40,6 @@ def gerar(linhas):
         res += '</jasper>'
 
         return res
-
-
 
 linhas = ''',Rendimentos tributáveis,zrra_VL_RENDIME_JAN
 $F{RENDIMENTOS_ISENTOS}.contains(ECamposRendimentos.ISENCAO_PENSAO_MOLESTIA.getKey()),Rendimento isento moléstia grave,zrra_VL_MOLESTIA_JAN
