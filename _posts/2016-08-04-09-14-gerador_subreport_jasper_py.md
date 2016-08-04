@@ -5,7 +5,7 @@ title: 'Gerador de subrelatório para o jasper usando python'
 
 Gerador de parametros para jasper, antes eram fields.
 
-ver static/geradorSubrel-Y16HDI55/py
+ver static/geradorSubrel-Y16HDI55.py
 
 REPARAR que para não causar conflito com o liquid, foi adicionada uma barra entre '$P{\%('
 
