@@ -3,7 +3,9 @@ layout: post
 title: 'Gerador de subrelatório para o jasper usando python'
 --- 
 
-Gerador de parametros para jasper, antes 
+Gerador de parametros para jasper, antes eram fields.
+
+REPARAR que para não causar conflito com o liquid, foi adicionada uma barra entre '$P{\%('
 
 ```
 # coding: iso8859-1
