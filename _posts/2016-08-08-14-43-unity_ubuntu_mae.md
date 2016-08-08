@@ -64,3 +64,20 @@ sudo service lightdm restart
 Switch back to tty7 (X graphic display) Ctrl+Alt+F7
 
 Try login again.
+
+
+*********************
+
+De alguma forma, tentando a maioria dos comandos possíveis, no ccsm, o Ubuntu está sem checkbox, cliquei no botão e apareceu para reabilitar, pediu para reabilitar uns dois e depois apareceu resolver conflitos e escolhi resolver atribuindo um valor alguma coisa
+
+[editar o .dmrc para tentar o 2d, mas acho que não estava disponível no 14.04](http://askubuntu.com/questions/145359/how-can-i-make-unity-2d-the-default-session-at-start-up)
+
+[tentei bastante desse, instalando o compizconfig-settings-manager (ccsm)](http://askubuntu.com/questions/17381/unity-doesnt-load-no-launcher-no-dash-appears/)
+
+fiz pesquisa no google por unity no icons
+
+pode ser pq minha mãe deve ter instalado coisa, vi q tinha um plugin do facebook no chrome
+
+http://askubuntu.com/questions/61947/unity-shows-no-icons-or-launcher-i-get-only-the-wallpaper
+http://askubuntu.com/questions/17381/unity-doesnt-load-no-launcher-no-dash-appears
+unity no icons mae ubuntu
