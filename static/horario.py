@@ -16,8 +16,8 @@ essesai = esexent
 esseent = essesai - timedelta(minutes=180)
 esexsai = exent
 print prent
-print '%s - %s' % (prsai, esprsai)
-print str(seent) + ' - ' + str(esseent)
-print '%s - %s' % (sesai, essesai)
-print '%s - %s' % (exent, esexent)
-print '%s - %s' % (exsai, esexsai)
+print 'prsai: %s - %s' % (prsai, esprsai)
+print 'seent: ' + str(seent) + ' - ' + str(esseent)
+print 'sesai: %s - %s' % (sesai, essesai)
+print 'exent: %s - %s' % (exent, esexent)
+print 'exsai: %s - %s' % (exsai, esexsai)
