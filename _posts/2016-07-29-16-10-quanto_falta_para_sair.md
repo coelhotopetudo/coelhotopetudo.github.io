@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Calcular minutos em python
+title: Calcular minutos em python (horário)
 tags: python
 ---
+
+ver [codigo](/static/horario.py)
 
 
 ```
