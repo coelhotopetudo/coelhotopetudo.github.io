@@ -1,1 +1,1 @@
-git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+wget https://yt-dl.org/downloads/latest/youtube-dl -O ~/bin/youtube-dl && chmod a+rx ~/bin/youtube-dl
