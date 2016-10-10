@@ -1,1 +1,10 @@
-wget https://yt-dl.org/downloads/latest/youtube-dl -O ~/bin/youtube-dl && chmod a+rx ~/bin/youtube-dl
+ffmpeg -ss 1639 -t 226 -i cavalo.mp3 10-A_ultima_mateada.mp3
+ffmpeg -ss 1315 -t 324 -i cavalo.mp3 09-O_suicidio_da_polaquinha.mp3
+ffmpeg -ss 1147 -t 168 -i cavalo.mp3 08-Coracao_de_Pinhao.mp3
+ffmpeg -ss 984 -t 163 -i cavalo.mp3 07-Pia_de_bosta.mp3
+ffmpeg -ss 819 -t 165 -i cavalo.mp3 06-Talagaco_no_Peito.mp3
+ffmpeg -ss 655 -t 164 -i cavalo.mp3 05-Mal-arranjado.mp3
+ffmpeg -ss 526 -t 129 -i cavalo.mp3 04-Passado_Polones.mp3
+ffmpeg -ss 377 -t 149 -i cavalo.mp3 03-Vento_Sul.mp3
+ffmpeg -ss 179 -t 198 -i cavalo.mp3 02-Guri_do_Passauna.mp3
+ffmpeg -ss 45 -t 134 -i cavalo.mp3 01-Punk_Rock_de_Galpao.mp3
