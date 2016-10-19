@@ -52,7 +52,7 @@ select
  coalesce(sum(cast(bdei.VL_COMP_APO_ABR as numeric(13,2))), 0) as BDEI_VL_COMP_APO_ABR, coalesce(sum(cast(bdei.VL_COMP_APO_MAI as numeric(13,2))), 0) as BDEI_VL_COMP_APO_MAI, coalesce(sum(cast(bdei.VL_COMP_APO_JUN as numeric(13,2))), 0) as BDEI_VL_COMP_APO_JUN,
  coalesce(sum(cast(bdei.VL_COMP_APO_JUL as numeric(13,2))), 0) as BDEI_VL_COMP_APO_JUL, coalesce(sum(cast(bdei.VL_COMP_APO_AGO as numeric(13,2))), 0) as BDEI_VL_COMP_APO_AGO, coalesce(sum(cast(bdei.VL_COMP_APO_SET as numeric(13,2))), 0) as BDEI_VL_COMP_APO_SET,
  coalesce(sum(cast(bdei.VL_COMP_APO_OUT as numeric(13,2))), 0) as BDEI_VL_COMP_APO_OUT, coalesce(sum(cast(bdei.VL_COMP_APO_NOV as numeric(13,2))), 0) as BDEI_VL_COMP_APO_NOV, coalesce(sum(cast(bdei.VL_COMP_APO_DEZ as numeric(13,2))), 0) as BDEI_VL_COMP_APO_DEZ, coalesce(sum(cast(bdei.VL_COMP_APO_13 as numeric(13,2))), 0) as BDEI_VL_COMP_APO_13,
- coalesce(sum(cast(bdei.VL_ANUAL_OUTRO as numeric(13,2))), 0) as BDEI_VL_ANUAL_OUTRO, bdei.VL_ANUAL_DESCOUTRO as BDEI_VL_ANUAL_DESCOUTRO, coalesce(sum(cast(bdei.VL_ANUAL_LUCDIV as numeric(13,2))), 0) as BDEI_VL_ANUAL_LUCDIV, coalesce(sum(cast(bdei.VL_ANUAL_TITSOC as numeric(13,2))), 0) as BDEI_VL_ANUAL_TITSOC,
+ coalesce(sum(cast(bdei.VL_ANUAL_OUTRO as numeric(13,2))), 0) as BDEI_VL_ANUAL_OUTRO, coalesce(sum(cast(bdei.VL_ANUAL_LUCDIV as numeric(13,2))), 0) as BDEI_VL_ANUAL_LUCDIV, coalesce(sum(cast(bdei.VL_ANUAL_TITSOC as numeric(13,2))), 0) as BDEI_VL_ANUAL_TITSOC,
  coalesce(sum(cast(bdej.VL_RENDIME_JAN as numeric(13,2))), 0) as BDEJ_VL_RENDIME_JAN, coalesce(sum(cast(bdej.VL_RENDIME_FEV as numeric(13,2))), 0) as BDEJ_VL_RENDIME_FEV, coalesce(sum(cast(bdej.VL_RENDIME_MAR as numeric(13,2))), 0) as BDEJ_VL_RENDIME_MAR,
  coalesce(sum(cast(bdej.VL_RENDIME_ABR as numeric(13,2))), 0) as BDEJ_VL_RENDIME_ABR, coalesce(sum(cast(bdej.VL_RENDIME_MAI as numeric(13,2))), 0) as BDEJ_VL_RENDIME_MAI, coalesce(sum(cast(bdej.VL_RENDIME_JUN as numeric(13,2))), 0) as BDEJ_VL_RENDIME_JUN,
  coalesce(sum(cast(bdej.VL_RENDIME_JUL as numeric(13,2))), 0) as BDEJ_VL_RENDIME_JUL, coalesce(sum(cast(bdej.VL_RENDIME_AGO as numeric(13,2))), 0) as BDEJ_VL_RENDIME_AGO, coalesce(sum(cast(bdej.VL_RENDIME_SET as numeric(13,2))), 0) as BDEJ_VL_RENDIME_SET,
@@ -88,11 +88,11 @@ select
  coalesce(sum(cast(bdej.VL_ANOANTERIOR_JAN as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_JAN, coalesce(sum(cast(bdej.VL_ANOANTERIOR_FEV as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_FEV, coalesce(sum(cast(bdej.VL_ANOANTERIOR_MAR as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_MAR,
  coalesce(sum(cast(bdej.VL_ANOANTERIOR_ABR as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_ABR, coalesce(sum(cast(bdej.VL_ANOANTERIOR_MAI as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_MAI, coalesce(sum(cast(bdej.VL_ANOANTERIOR_JUN as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_JUN,
  coalesce(sum(cast(bdej.VL_ANOANTERIOR_JUL as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_JUL, coalesce(sum(cast(bdej.VL_ANOANTERIOR_AGO as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_AGO, coalesce(sum(cast(bdej.VL_ANOANTERIOR_SET as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_SET,
- coalesce(sum(cast(bdej.VL_ANOANTERIOR_OUT as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_OUT, coalesce(sum(cast(bdej.VL_ANOANTERIOR_NOV as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_NOV, coalesce(sum(cast(bdej.VL_ANOANTERIOR_DEZ as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_DEZ, coalesce(sum(cast(bdej.VL_ANOANTERIOR_13 as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_13
+ coalesce(sum(cast(bdej.VL_ANOANTERIOR_OUT as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_OUT, coalesce(sum(cast(bdej.VL_ANOANTERIOR_NOV as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_NOV, coalesce(sum(cast(bdej.VL_ANOANTERIOR_DEZ as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_DEZ,
+ coalesce(sum(cast(bdej.VL_ANOANTERIOR_13 as numeric(13,2))), 0) as BDEJ_VL_ANOANTERIOR_13
  from
  BENEFICIARIO_DECLARANTE bde
  inner join CODIGO_RECEITA cr on cr.CDR_ID = bde.CDR_ID
- inner join PESSOA p on p.PES_ID = bde.PES_ID
  left join BDE_RENDIMENTO bder on bder.BDE_ID = bde.BDE_ID
  left join BDE_ISENTO bdei on bdei.BDE_ID = bde.BDE_ID
  left join BDE_JUDICIAL bdej on bdej.BDE_ID = bde.BDE_ID
