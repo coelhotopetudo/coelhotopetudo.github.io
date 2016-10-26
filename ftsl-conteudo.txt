@@ -1,3 +1,6 @@
+http://en.community.dell.com/owners-club/alienware/f/3746/t/19476747
+http://www.linlap.com/alienware_m14x
+http://askubuntu.com/questions/163729/microphone-is-not-working-in-skype
 P - Node.js (Básico) #1
 história
 NPM gerenciador de pacotes (bibliotecas) para node.js
