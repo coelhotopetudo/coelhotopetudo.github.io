@@ -51,3 +51,5 @@ documentando
 compilando
 corrigindo issues fáceis ou de baixo impacto, alguns sites/softwares tem lista específica para isso
 
+ssh -t -X <login>@10.32.128.172 "emacs -nw --eval \
+'(progn (setq server-host \"10.32.128.172\" server-use-tcp t) (server-start))'"
