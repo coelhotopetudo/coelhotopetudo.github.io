@@ -55,3 +55,5 @@ http://voce.serpro/comite-regional-de-software-livre-de-curitiba/projetos/conteu
 
 ssh -t -X <login>@10.32.128.172 "emacs -nw --eval \
 '(progn (setq server-host \"10.32.128.172\" server-use-tcp t) (server-start))'"
+
+Fabiano
