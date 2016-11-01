@@ -1,7 +1,3 @@
-https://www.feralhosting.com/faq/view?question=157
-http://en.community.dell.com/owners-club/alienware/f/3746/t/19476747
-http://www.linlap.com/alienware_m14x
-http://askubuntu.com/questions/163729/microphone-is-not-working-in-skype
 P - Node.js (Básico) #1
 história
 NPM gerenciador de pacotes (bibliotecas) para node.js
@@ -17,7 +13,7 @@ vários plugins
 mesmo editor em qualquer lugar, mesmo quando não tiver interface gráfica
 teclado sem númerico não tem as teclas Page Up/Down e alguns nem Home/End
 
-P - 1o. campeonato nacional de VI #3
+M - 1o. campeonato nacional de VI #3
 ? quais serão as regras?
 ? quais serão os prêmios?
 introdução ao VI
@@ -33,7 +29,6 @@ um-para-um com javascript
 coisas que o javascript, por exemplo o do nodejs, não tem
 diminuir a imensidão de chaves do JavaScript
 Atom - IDE escrita em CoffeeScript
-
 
 P - desenvolvendo sites colaborativamente (Básico) #5
 http://nome_do_seu_site.github.io
