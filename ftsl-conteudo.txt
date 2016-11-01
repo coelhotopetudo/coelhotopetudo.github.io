@@ -45,6 +45,7 @@ o que é GHP
 URL GHIO
 
 P - como contribuir com SL #7
+(Sergio) sugeriu para tentar nao atrelar ao financeiro no título, frisar que não precisa contribuir financeira
 financeiramente
 testando
 documentando
@@ -56,4 +57,16 @@ http://voce.serpro/comite-regional-de-software-livre-de-curitiba/projetos/conteu
 ssh -t -X <login>@10.32.128.172 "emacs -nw --eval \
 '(progn (setq server-host \"10.32.128.172\" server-use-tcp t) (server-start))'"
 
-Fabiano
+P - cyanogen (Fabiano) #8
+arrancar, farah flash
+
+banco distribuido (Fabiano)
+
+(Alisson) devemos focar em conteudo para o Serpro ou para a comunidade?
+
+dia 4 (sexta) Suiça Fabiano, virá para Curitiba, cluster ARM
+
+- reservar essa sala para o dia 4
+
+http://ftsl.org.br/2015/apps/certificados/?mail=coelhotopetudo%40gmail.com
+
