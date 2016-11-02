@@ -1,6 +1,1 @@
-cd TrinityCore
-mkdir build
-cd build
-cmake ../ -DCMAKE_INSTALL_PREFIX=/home/$USER/server -DTOOLS=1 -DWITH_WARNINGS=1
-make -j $(nproc)
-make -j $(nproc) install
+wget https://github.com/TrinityCore/TrinityCore/releases/download/TDB335.62/TDB_full_335.62_2016_10_17.7z
