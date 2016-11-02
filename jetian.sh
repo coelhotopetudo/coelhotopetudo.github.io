@@ -1,1 +1,6 @@
-git clone -b 3.3.5 --depth=1 git://github.com/TrinityCore/TrinityCore.git
+cd TrinityCore
+mkdir build
+cd build
+cmake ../ -DCMAKE_INSTALL_PREFIX=/home/$USER/server -DTOOLS=1 -DWITH_WARNINGS=1
+make -j $(nproc)
+make -j $(nproc) install
