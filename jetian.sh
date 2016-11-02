@@ -1,1 +1,1 @@
-apt-get install -y git cmake make gcc g++ libmysqlclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-dev libboost-thread-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-iostreams-dev mysql-server p7zip
+git clone -b 3.3.5 git://github.com/TrinityCore/TrinityCore.git
