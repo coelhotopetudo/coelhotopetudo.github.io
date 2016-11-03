@@ -13,7 +13,7 @@ vários plugins
 mesmo editor em qualquer lugar, mesmo quando não tiver interface gráfica
 teclado sem númerico não tem as teclas Page Up/Down e alguns nem Home/End
 
-P - 1o. campeonato nacional de VI #3
+M - 1o. campeonato nacional de VI #3
 ? quais serão as regras?
 ? quais serão os prêmios?
 introdução ao VI
@@ -29,7 +29,6 @@ um-para-um com javascript
 coisas que o javascript, por exemplo o do nodejs, não tem
 diminuir a imensidão de chaves do JavaScript
 Atom - IDE escrita em CoffeeScript
-
 
 P - desenvolvendo sites colaborativamente (Básico) #5
 http://nome_do_seu_site.github.io
@@ -52,3 +51,7 @@ documentando
 compilando
 corrigindo issues fáceis ou de baixo impacto, alguns sites/softwares tem lista específica para isso
 
+http://voce.serpro/comite-regional-de-software-livre-de-curitiba/projetos/conteudo-para-ftsl
+
+ssh -t -X <login>@10.32.128.172 "emacs -nw --eval \
+'(progn (setq server-host \"10.32.128.172\" server-use-tcp t) (server-start))'"
