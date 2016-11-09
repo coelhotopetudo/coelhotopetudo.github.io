@@ -9,6 +9,8 @@ failed group descriptors corrputed
 
 e que não poderia montar o / (root) e abria um console com o busybox.
 
+Para iniciar pelo USB no computador da minha mãe, é um HPG42 velhinho tadinho, apertei: esc e depois f9
+
 Para corrigir foi muito fácil, mas precisei do meu live USB com o ubuntu 16.04. Quando tentei acessar (pelo nautilus, porque direto da barra, não acontecia) o drive que estava o Ubuntu da minha mãe, avisou que precisava fazer verificação. usei o comando:
 
 sudo fsck -f <caminho>
