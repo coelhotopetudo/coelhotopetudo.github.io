@@ -5,6 +5,9 @@ title: 'Corrigindo sistema de arquivos no Ubuntu linux'
 
 O computador da minha mãe, não estava iniciando, acusava algo como:
 
+failed group descriptors corrputed
+
+e que não poderia montar o / (root) e abria um console com o busybox.
 
 Para corrigir foi muito fácil, mas precisei do meu live USB com o ubuntu 16.04. Quando tentei acessar (pelo nautilus, porque direto da barra, não acontecia) o drive que estava o Ubuntu da minha mãe, avisou que precisava fazer verificação. usei o comando:
 
