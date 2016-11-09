@@ -1,4 +1,6 @@
+print 'jon'
 def carregar(arq):
+
     li = set()
     with (open(arq, 'r')) as wcol:
         for col in wcol:
@@ -15,3 +17,5 @@ for quebrado in faltando:
         print "'0' " + campo + ','
     else:
         print campo[0:4] + '.' + campo[5:len(campo)] + ' ' + campo + ','
+
+print 'jr'
