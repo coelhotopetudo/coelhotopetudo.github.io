@@ -3,6 +3,13 @@ https://www.feralhosting.com/faq/view?question=157
 http://en.community.dell.com/owners-club/alienware/f/3746/t/19476747
 http://www.linlap.com/alienware_m14x
 http://askubuntu.com/questions/163729/microphone-is-not-working-in-skype
+
+hdmi alienware
+https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
+http://askubuntu.com/questions/573313/how-to-install-nvidea-drivers-of-my-alienware-m14x-ubuntu-14-04
+http://askubuntu.com/questions/61396/how-do-i-install-the-nvidia-drivers
+
+
 P - Node.js (Básico) #1
 história
 NPM gerenciador de pacotes (bibliotecas) para node.js
@@ -18,7 +25,7 @@ vários plugins
 mesmo editor em qualquer lugar, mesmo quando não tiver interface gráfica
 teclado sem númerico não tem as teclas Page Up/Down e alguns nem Home/End
 
-P - 1o. campeonato nacional de VI #3
+M - 1o. campeonato nacional de VI #3
 ? quais serão as regras?
 ? quais serão os prêmios?
 introdução ao VI
@@ -35,7 +42,6 @@ coisas que o javascript, por exemplo o do nodejs, não tem
 diminuir a imensidão de chaves do JavaScript
 Atom - IDE escrita em CoffeeScript
 
-
 P - desenvolvendo sites colaborativamente (Básico) #5
 http://nome_do_seu_site.github.io
 repositório GIT para os códigos HTML, CSS e JavaScript do seu site
@@ -51,9 +57,16 @@ o que é GHP
 URL GHIO
 
 P - como contribuir com SL #7
+(Sergio) sugeriu para tentar nao atrelar ao financeiro no título, frisar que não precisa contribuir financeira
 financeiramente
 testando
 documentando
 compilando
 corrigindo issues fáceis ou de baixo impacto, alguns sites/softwares tem lista específica para isso
+
+P - cyanogen (Fabiano) #8
+arrancará o so, farah via escrita na flash
+pode inutilizar o celular
+
+P - bancos de dados distribuidos (Fabiano poderia falar sobre) NoSQL
 
