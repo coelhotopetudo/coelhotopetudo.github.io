@@ -1,0 +1,2 @@
+aa;cat comandos.txt
+bb;echo 'bb'
