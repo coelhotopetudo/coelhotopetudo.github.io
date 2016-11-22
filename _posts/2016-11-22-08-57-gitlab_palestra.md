@@ -3,10 +3,14 @@ layout: post
 title: 'Palestra sobre GitLab'
 ---
 
+
 # Nomes
 * Git para projetos de código aberto
 * Git: uma abordagem pŕatica para desenvolvedores
-* GitLab/Github: uma introdução prática para desenvolvedores
+* GitLab/GitHub: uma introdução prática para desenvolvedores
+
+# Resumo 
+Uma introdução sobre como utilizar serviços como GitLab e GitHub para contribuir com softwares de código aberto.
 
 # objetivo dessa palestra 
 * será somente na web e podemos falar que existem outras formas de interação
@@ -60,3 +64,5 @@ title: 'Palestra sobre GitLab'
 
 # Fazer
 $1 - procurar gráfico fork
+$2 - criar organizacao que possui uma calculadora já quase completa
+$3 - ver como eh o glpages
