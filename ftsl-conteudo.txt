@@ -1,3 +1,15 @@
+http://www.ac-web.org/forums/showthread.php?221383-Single-Player-Project-TC-R2&s=f7cefc21d71f6467f8e4a9590445058b
+https://www.feralhosting.com/faq/view?question=157
+http://en.community.dell.com/owners-club/alienware/f/3746/t/19476747
+http://www.linlap.com/alienware_m14x
+http://askubuntu.com/questions/163729/microphone-is-not-working-in-skype
+
+hdmi alienware
+https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
+http://askubuntu.com/questions/573313/how-to-install-nvidea-drivers-of-my-alienware-m14x-ubuntu-14-04
+http://askubuntu.com/questions/61396/how-do-i-install-the-nvidia-drivers
+
+
 P - Node.js (Básico) #1
 história
 NPM gerenciador de pacotes (bibliotecas) para node.js

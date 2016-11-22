@@ -1,2 +1,3 @@
 _site
 *.log
+/static/ftemp.sql
