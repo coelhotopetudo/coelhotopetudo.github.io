@@ -3,6 +3,11 @@ layout: post
 title: 'Palestra sobre GitLab'
 ---
 
+# Nomes
+* Git para projetos de código aberto
+* Git: uma abordagem pŕatica para desenvolvedores
+* GitLab/Github: uma introdução prática para desenvolvedores
+
 # objetivo dessa palestra 
 * será somente na web e podemos falar que existem outras formas de interação
 
@@ -15,19 +20,30 @@ title: 'Palestra sobre GitLab'
 * mais info ver site scm-git [1]
 * O que é controle de versão, e por que você deve se importar? O controle de versão é um sistema que registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao longo do tempo de forma que você possa recuperar versões específicas. [1]
 * o commit do git é sempre primeiro no local (ou a sua cópia) e depois envia para o remoto (ou o repositório original via pull-request)
-* clonando um repositório 
+* Clonar um repositório é quando todo o controle de versão (todos os commits) é trazido para máquina local (git clone)
 
 # GitLab e GitHub
 * GitHub é um serviço, tem outros serviços além de um repositório git, por exemplo GH-Pages, Gist, Gitter
-* GitLab é uma solução e também um serviço
+* github é uma rede social: https://github.com/about
+* GitLab é uma solução e também um serviço, mais corporativo
+** tem apropriação de horas
+** integração contínua
+* https://about.gitlab.com/comparison/gitlab-vs-github.html (parcial)
+* outros (BitBucket, SourceForge, etc)
 
 # criando meu primeiro projeto e primeiro commit 
+* conta, criar uma, permite login social
 
 # contribuindo com um projeto existente 
-* fork (e depois clone)
+* será que alguém já não criou isso?
+* fork 
 * pull-request
 
 # fork
+* cópia total do projeto, inclusive commits
+* rastreabilidade com o projeto original
+* como identificar um fork
+* gráfico de forks e merges [$1]
 * exemplo de uma calculadora ( https://gitlab.com/coelhotopetudo/calculadora ), uma aplicação simples com somente função adicionar e que iremos implementar a função subtrair
 
 # pull-request 
@@ -41,3 +57,6 @@ title: 'Palestra sobre GitLab'
 
 # Referências
     1 - https://git-scm.com/book/pt-br/v1
+
+# Fazer
+$1 - procurar gráfico fork
