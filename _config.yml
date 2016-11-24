@@ -1,3 +1,4 @@
-name: Coisadara do COELHO (baseado em JoaoMC's Blog)
+name: Coisadara do COELHO
 markdown: kramdown
 highlighter: rouge
+comments: true
