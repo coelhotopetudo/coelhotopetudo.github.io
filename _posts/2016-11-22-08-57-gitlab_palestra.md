@@ -3,25 +3,14 @@ layout: post
 title: 'Palestra sobre GitLab'
 ---
 
-# Nomes
+# Nome
 * Abrindo seu código para o mundo! GitLab/GitHub: uma introdução prática
-* Estendendo seu conhecimento para o mundo! GitLab/GitHub: uma introdução prática
-* Tornando-se um desenvolvedor de software livre! GitLab/GitHub: uma introdução prática
-* Dite tendências abrindo seu código para o mundo! GitLab/GitHub: uma introdução prática
-* Expandindo seu conhecimento com o mundo! GitLab/GitHub: uma introdução prática
-* Git para projetos de código aberto
-* Git: uma abordagem pŕatica para desenvolvedores
-* GitLab/GitHub: uma introdução prática para desenvolvedores
 
-# Resumo 
-* Uma introdução sobre como utilizar serviços como GitLab e GitHub para contribuir com softwares de código aberto.
-* Aprenda a utilizar serviços como GitLab e GitHub e comece a ditar tendências com software livre ou código aberto. 
-* O objetivo dessa palestra é mostrar, passo a passo, como criar seu primeiro projeto de código aberto e como colaborar com um projeto já existente.
-
-# objetivo dessa palestra 
-* será somente na web e podemos falar que existem outras formas de interação
+# Resumo/Objetivo
+* Mostrar, passo a passo, como é fácil compartilhar suas idéias com GitLab/GitHub, seja com seus próprios projetos ou em outros. Abordaremos como criar um repositório e também os conceitos fork e pull-request para colaborar com outros desenvolvedores.
 
 # minha experiencia
+* será que precisamos falar sobre nossa experiencia?
 * idéia de falar um pouco sobre minha experiencia com git/gitlab/github
 
 # um pouco sobre git 
