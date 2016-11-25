@@ -31,7 +31,8 @@ title: 'Palestra sobre GitLab'
 * outros (BitBucket, SourceForge, etc)
 
 # criando meu primeiro projeto e primeiro commit 
-* conta, criar uma, permite login social
+* criar uma conta, permite login social
+* calculadora
 
 # contribuindo com um projeto existente 
 * será que alguém já não criou isso?
@@ -47,6 +48,7 @@ title: 'Palestra sobre GitLab'
 
 # pull-request 
 * uma proposta para o repositório original
+* pode colocar um comentário 
 
 # funcionalidades do gitlab
 * visibilidade dos repositórios 
