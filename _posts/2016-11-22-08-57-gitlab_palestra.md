@@ -4,7 +4,8 @@ title: 'Palestra sobre GitLab'
 separator: "^\n\n\n"
 ---
 
-## Abrindo seu código para o mundo! GitLab/GitHub: uma introdução prática
+# Abrindo seu código para o mundo! 
+## GitLab/GitHub: uma introdução prática
 * Alisson Coelho de Morais
 * coelhotopetudo@gmail.com 
 
@@ -84,7 +85,7 @@ Notes:
 # Referências
     1 - https://git-scm.com/book/pt-br/v1
 
-Note: Fazer
+Note: Fazer:
 $1 - procurar gráfico fork
 $2 - criar organizacao que possui uma calculadora já quase completa
 $3 - ver como eh o glpages
