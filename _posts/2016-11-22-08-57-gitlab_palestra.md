@@ -30,25 +30,37 @@ title: 'Palestra sobre GitLab'
 * https://about.gitlab.com/comparison/gitlab-vs-github.html (parcial)
 * outros (BitBucket, SourceForge, etc)
 
+
+
 # criando meu primeiro projeto e primeiro commit 
 * criar uma conta, permite login social
-* calculadora
+* calculadora, primeiro somar
+
+
 
 # contribuindo com um projeto existente 
-* será que alguém já não criou isso?
+* vamos impl as outras funcoes, mas será que alguém já não criou isso?
 * fork 
 * pull-request
+
+
 
 # fork
 * cópia total do projeto, inclusive commits
 * rastreabilidade com o projeto original
 * como identificar um fork
+* https://gitlab.com/coelhotopetudo/calculadora
+Notes:
 * gráfico de forks e merges [$1]
-* exemplo de uma calculadora ( https://gitlab.com/coelhotopetudo/calculadora ), uma aplicação simples com somente função adicionar e que iremos implementar a função subtrair
+* exemplo de uma calculadora, uma aplicação simples com somente função adicionar e que iremos implementar a função subtrair
+
+
 
 # pull-request 
-* uma proposta para o repositório original
-* pode colocar um comentário 
+* proposta de codigo para o repositório original
+* pode colocar um comentário explicando a mudanca
+
+
 
 # funcionalidades do gitlab
 * visibilidade dos repositórios 
