@@ -5,6 +5,7 @@ separator: "^\n\n\n"
 ---
 
 # Abrindo seu código para o mundo! 
+
 ## GitLab/GitHub: uma introdução prática
 * Alisson Coelho de Morais (coelhotopetudo@gmail.com) 
 * Flávio Casas de Arcega
@@ -35,6 +36,24 @@ Note: e por que você deve se importar? O controle de versão é um sistema que 
 ** integração contínua
 * https://about.gitlab.com/comparison/gitlab-vs-github.html (parcial)
 * outros (BitBucket, SourceForge, etc)
+
+
+
+> Em essência, falar de ferramentas de versionamento é falar de colaboração, é falar de trabalho em equipe, é falar de muitas pessoas trabalhando em cima de uma mesma base de código para juntos fazerem aquilo que sozinhas talvez não conseguiriam. 
+
+
+
+> GitLab.com é a versão enterprise e gratuita para uso do software Gitlab, porém é possível baixar a versão Community para uso em servidor privado. GitHub é um serviço oferecido gratuitamente a projetos de código aberto semelhante ao gitlab.com porém não oferece uma versão para uso em servidores privados.
+
+
+
+## Repositórios Públicos
+* Github e Gitlab oferecem sem custo
+
+## Repositórios Privados
+* Github cobra
+* Gitlab gratuito e ilimitado
+
 
 
 
