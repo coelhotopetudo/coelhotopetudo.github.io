@@ -16,12 +16,6 @@ separator: "^\n\n\n"
 
 
 
-# minha experiencia
-* será que precisamos falar sobre nossa experiencia?
-* idéia de falar um pouco sobre minha experiencia com git/gitlab/github
-
-
-
 # um pouco sobre git 
 * Sistemas de Controle de Versão Distribuídos
 * história, Linux e BitKeeper
