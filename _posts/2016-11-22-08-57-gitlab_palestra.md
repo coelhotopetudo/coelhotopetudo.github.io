@@ -6,8 +6,8 @@ separator: "^\n\n\n"
 
 # Abrindo seu código para o mundo! 
 ## GitLab/GitHub: uma introdução prática
-* Alisson Coelho de Morais
-* coelhotopetudo@gmail.com 
+* Alisson Coelho de Morais (coelhotopetudo@gmail.com) 
+* Flávio Casas de Arcega
 
 
 
