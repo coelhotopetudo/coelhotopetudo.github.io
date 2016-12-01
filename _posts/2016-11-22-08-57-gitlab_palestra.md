@@ -48,12 +48,15 @@ Note: e por que você deve se importar? O controle de versão é um sistema que 
 
 
 ## Fork
+
+![fork]({{ site.url}}/static/img/fork-git-workflow-release-cycle-3release.png)
+
 * cópia total do projeto, inclusive commits
 * rastreabilidade com o projeto original
 * como identificar um fork
 * https://gitlab.com/coelhotopetudo/calculadora
 Note:
-* gráfico de forks e merges [$1]
+ gráfico de forks e merges [$1]
 * exemplo de uma calculadora, uma aplicação simples com somente função adicionar e que iremos implementar a função subtrair
 
 
