@@ -9,7 +9,7 @@ separator: "^\n\n\n"
 * Alisson Coelho de Morais (coelhotopetudo@gmail.com) 
 * Flávio Casas de Arcega
 
-Note: Esse é o conteúdo (ou uma versão dele) de palestra que farei no dia 06/dez/2016 ás 11h, quando eu tiver a URL da transmissão, colocarei aqui.
+Note: Esse é o conteúdo (ou uma versão dele) de palestra que farei no dia 06/dez/2016 ás 11h, e poderá ser vista pela URL: http://assiste.serpro.gov.br/supsd/
 
 
 
