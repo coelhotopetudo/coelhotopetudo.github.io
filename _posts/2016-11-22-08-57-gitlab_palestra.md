@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Palestra sobre GitLab/GitHub'
+theme: css/theme/solarized.css
 separator: "^\n\n\n"
 ---
 # Abrindo seu código para o mundo! 
@@ -49,7 +50,7 @@ Note: e por que você deve se importar? O controle de versão é um sistema que 
 
 ## Fork
 
-![fork]({{ site.url}}/static/img/fork-git-workflow-release-cycle-3release.png)
+![fork](http://coelhotopetudo.github.io/static/img/fork-git-workflow-release-cycle-3release.png)
 
 * cópia total do projeto, inclusive commits
 * rastreabilidade com o projeto original
