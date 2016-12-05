@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>reveal-md</title>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/white.css" id="theme">
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown
+                                          data-separator="^\n\n\n"
+                                data-separator-notes="^Note:"  ><script type="text/template">
+# Abrindo seu código para o mundo! 
+
+## GitLab/GitHub: uma introdução prática
+* Alisson Coelho de Morais (coelhotopetudo@gmail.com) 
+* Flávio Casas de Arcega
+
+Note: Esse é o conteúdo (ou uma versão dele) de palestra que farei no dia 06/dez/2016 ás 11h, e poderá ser vista pela URL: http://assiste.serpro.gov.br/supsd/
+
+
+
+## Objetivo
+* Mostrar, passo a passo, como é fácil compartilhar suas idéias com GitLab/GitHub, seja com seus próprios projetos ou em outros. Abordaremos como criar um repositório e também os conceitos fork e pull-request para colaborar com outros desenvolvedores.
+
+
+
+## Pq? (Flávio) 
+> "Em essência, falar de ferramentas de versionamento é falar de colaboração, é falar de trabalho em equipe, é falar de muitas pessoas trabalhando em cima de uma mesma base de código para juntos fazerem aquilo que sozinhas talvez não conseguiriam."
+
+
+
+## Um pouco sobre git 
+* Sistemas de Controle de Versão Distribuídos
+* história: Linux e BitKeeper
+* https://git-scm.com/book/pt-br/v1
+* O que é controle de versão?
+Note: e por que você deve se importar? O controle de versão é um sistema que registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao longo do tempo de forma que você possa recuperar versões específicas. [1]
+* o commit do git é sempre primeiro no local (ou a sua cópia) e depois envia para o remoto (ou o repositório original via pull-request)
+* Clonar um repositório é quando todo o controle de versão (todos os commits) é trazido para máquina local (git clone)
+
+
+
+## Meu primeiro projeto e primeiro commit 
+* criar uma conta, permite login social
+* calculadora, primeiro somar
+
+
+
+## Contribuindo com um projeto existente 
+* E as outras funções? Vamos implementá-las? Mas será que alguém já não criou isso?
+* fork 
+* pull-request
+
+
+
+## Fork
+
+![fork](http://coelhotopetudo.github.io/static/img/fork-git-workflow-release-cycle-3release.png)
+
+* cópia total do projeto, inclusive commits
+* rastreabilidade com o projeto original
+* como identificar um fork
+* https://gitlab.com/coelhotopetudo/calculadora
+Note:
+ gráfico de forks e merges [$1]
+* exemplo de uma calculadora, uma aplicação simples com somente função adicionar e que iremos implementar a função subtrair
+
+
+
+## Pull-request 
+* proposta de código para o repositório original
+* pode colocar um comentário explicando a mudanca
+
+
+
+## Os gits (Flávio)
+> "GitLab.com é a versão enterprise e gratuita para uso do software Gitlab, porém é possível baixar a versão Community para uso em servidor privado. GitHub é um serviço oferecido gratuitamente a projetos de código aberto semelhante ao gitlab.com porém não oferece uma versão para uso em servidores privados."
+
+
+
+## GitHub e GitLab
+* outros (BitBucket, SourceForge, etc)
+* Repositórios Públicos - Github e Gitlab oferecem sem custo
+* Repositórios Privados - Github cobra, Gitlab gratuito e limitado
+* https://github.com/about
+* https://about.gitlab.com/comparison/gitlab-vs-github.html
+Note: eu achei essa comparação do gitlab um pouco, mas só um pouquinho parcial
+
+
+
+## GitLab e GitHub (cont.)
+* GitHub é um serviço, tem outros serviços além de um repositório git, por exemplo GH-Pages, Gist, Gitter
+* GitHub mais para uma rede social: https://github.com/about
+* GitLab é uma solução e também um serviço, mais corporativo
+** tem apropriação de horas
+** integração contínua
+** https://about.gitlab.com/comparison/gitlab-vs-github.html (parcial)
+
+
+
+## Referências
+* https://git-scm.com/book/pt-br/v1
+* https://github.com/about
+* https://about.gitlab.com/comparison/gitlab-vs-github.html
+* https://gitlab.com/coelhotopetudo/calculadora
+
+
+
+## Obrigado!
+* http://coelhotopetudo.github.io/
+
+</script></section></div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+              { src: 'plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default',
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {};
+            options = extend(defaultOptions, options, queryOptions);
+            Reveal.initialize(options);
+        </script>
+        
+          <script src="/scripts/00737990929"></script>
+    </body>
+</html>
+
