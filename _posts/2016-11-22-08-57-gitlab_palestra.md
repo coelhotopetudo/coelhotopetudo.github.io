@@ -10,7 +10,7 @@ separator: "^\n\n\n"
 * Alisson Coelho de Morais (coelhotopetudo@gmail.com) 
 * Flávio Casas de Arcega
 
-Note: Esse é o conteúdo da palestra que foi feita no dia 06/dez/2016 ás 11h, e pode ser acessada pela URL: http://assiste.serpro.gov.br/supsd/video.php?nome=212037 (a palestra começa em 1h57min). Os slides da apresentação podem ser acessados em: http://coelhotopetudo.github.io/static/reveal.js
+Note: Esse é o conteúdo da palestra que foi feita no dia 06/dez/2016 ás 11h, e pode ser acessada [aqui (a palestra começa em 1h57min)](http://assiste.serpro.gov.br/supsd/video.php?nome=212037). Os [slides da apresentação podem ser acessados aqui](http://coelhotopetudo.github.io/static/reveal.js).
 
 
 
