@@ -6,6 +6,8 @@ comments: true
 
 Abaixo estão alguns motivos de pq, apos 3 meses de uso, continuo usando o [ spacemacs ](http://spacemacs.org):
 
+Só para deixar claro: eu uso modo vim (aka vim-style).
+
 * necessidade configuração antes do uso, zero ou mínima
 * documentação dos plugins e configurações de facil acesso e leitura
 * vem configurado para aproveitar ao maximo o tamanho da janela, sem barra de ferramentas e tal
