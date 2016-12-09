@@ -16,3 +16,4 @@ Só para deixar claro: eu uso modo vim (aka vim-style).
 * barra de espaço como leader key, sem ter que ficar pressionando o ":"
 * lista de comandos, tipo para apagar o arquivo aberto, se digitar rapidamente "SPC -> f -> D" ou SPC aparece a lista de comandos, depois f e depois D para executar o comando
 * scratch - um buffer que não te incomoda, é o "telefone automático"
+* alterna rapidamente a quebra de linha/numeracao de linha de um arquivo
