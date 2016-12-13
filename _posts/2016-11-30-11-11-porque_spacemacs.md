@@ -8,6 +8,7 @@ Abaixo estão alguns motivos do pq, apos 3 meses de uso, continuo usando o [ spa
 
 Só para deixar claro: eu uso com modo vim (aka vim-style ou evil-mode).
 
+* org-mode (http://orgmode.org/) ainda estou no início do uso, mas só ter suporte a tags, já valeu *
 * necessidade configuração zero ou mínima
 * documentação dos plugins e configurações de fácil acesso e leitura *
 * vem configurado para aproveitar ao máximo o tamanho da janela, sem barra de ferramentas e tal
