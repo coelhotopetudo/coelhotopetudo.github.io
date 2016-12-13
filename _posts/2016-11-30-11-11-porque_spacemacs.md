@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'spacemacs - entre nessa e nao se arrependerah'
+title: 'spacemacs - entre nessa! Não se arrependerá!'
 comments: true
 ---
 
