@@ -3,7 +3,7 @@ layout: post
 title: 'Palestra sobre GitLab/GitHub'
 theme: css/theme/solarized.css
 separator: "^\n\n\n"
-excerpt: 'Conteúdo da palestra para mostrar como é fácil compartilhar suas idéias com GitLab/GitHub, seja com seus próprios projetos ou em outros. Abordaremos como criar um repositório e também os conceitos fork e pull-request para colaborar com outros desenvolvedores.'
+excerpt: 'Conteúdo da palestra para mostrar como é fácil compartilhar suas idéias com GitLab/GitHub, seja com seus próprios projetos ou em outros. Abordaremos como criar um repositório e também os conceitos fork e pull-request para colaborar com outros desenvolvedores. Link para vídeo no post.'
 ---
 # Abrindo seu código para o mundo! 
 
