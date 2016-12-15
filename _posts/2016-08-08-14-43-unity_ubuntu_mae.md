@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Fazendo o unity voltar a funcinoar para conta da minha mae'
+title: 'Fazendo o unity voltar a funcionar para conta da minha mae'
 ---
 
 
