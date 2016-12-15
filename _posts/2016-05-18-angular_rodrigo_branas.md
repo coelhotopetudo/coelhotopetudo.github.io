@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'Angular.JS - Rodrigo Branas anotações'
-date: 2016-05-18 08:22
 ---
 
 Anotações feitas sobre série de vídeos sobre Angular.JS (Versão 1) do Rodrigo Branas:
