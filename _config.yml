@@ -1,3 +1,5 @@
 name: Coisadara do COELHO
 markdown: kramdown
 highlighter: rouge
+gems:
+  - jekyll-feed
