@@ -4,7 +4,7 @@ title: 'spacemacs - entre nessa! Não se arrependerá!'
 comments: true
 ---
 
-Abaixo estão alguns motivos do pq, apos 3 meses de uso, continuo usando o [ spacemacs ](http://spacemacs.org):
+Abaixo estão alguns motivos do pq, após 3 meses de uso, continuo usando o [ spacemacs ](http://spacemacs.org) em 4 dispositivos (notebook, micro velho, micro do serviço e celular - com pouca ou nenhuma configuração):
 
 Só para deixar claro: eu uso com modo vim (aka vim-style ou evil-mode).
 
@@ -19,4 +19,4 @@ Só para deixar claro: eu uso com modo vim (aka vim-style ou evil-mode).
 * scratch - um buffer que não te incomoda, é o "telefone automático" *
 * alterna rapidamente a quebra de linha/numeração de linha de um arquivo
 
-* Não são necessariamente do spacemacs, pode ser que seja do próprio emacs.
+** Não são necessariamente do spacemacs, pode ser que seja do próprio emacs.
