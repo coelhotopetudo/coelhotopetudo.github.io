@@ -8,6 +8,7 @@ Abaixo estão alguns motivos do pq, após 3 meses de uso, continuo usando o [ sp
 
 Só para deixar claro: eu uso com modo vim (aka vim-style ou evil-mode).
 
+* magit (https://magit.vc) para trabalhar com git, para mim que trabalho diariamente com minhas coisas (repositório privado), com esse blog, com repositório de serviço e outros, tudo fica transparente e eficiente, sem precisar ficar mudando de pasta *;
 * layer org-mode (http://orgmode.org/) ainda estou no início do uso, mas só ter suporte a tags, já valeu *
 * necessidade configuração zero ou mínima
 * documentação dos plugins e configurações de fácil acesso e leitura *
