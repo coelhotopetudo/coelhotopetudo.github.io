@@ -2,3 +2,4 @@ _site
 *.log
 /static/ftemp.sql
 /Gemfile.lock
+*.*
