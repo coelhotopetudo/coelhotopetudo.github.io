@@ -1,11 +1,6 @@
 
 * TODO magit merece um post específico
 
-* TODO  atualizar tema para pixel, o do jekyll
+* TODO atualizar tema para pixel, o do jekyll
 
-* DONE org post
-  CLOSED: [2016-12-21 Qua 15:41]
-  :LOGBOOK:
-  CLOCK: [2016-12-21 Qua 14:35]--[2016-12-21 Qua 15:00] =>  0:25
-  :END:
-
+* TODO [#A] falar sobre o termux no blog                              :clhio:
