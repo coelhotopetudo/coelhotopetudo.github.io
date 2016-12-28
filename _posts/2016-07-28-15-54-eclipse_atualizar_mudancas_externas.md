@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Eclipse reconhecer alterações externas jasper
+title: Eclipse reconhecer alterações externas 
+tags: eclipse, pCostJ, jonatas, dirf, jasper
 ---
 
-General -> Workspace -> Refresh using native hooks or polling
+Para fazer que o eclipse reconheça as alterações externas nos arquivos do projeto:
+
+Window -> Preferences e depois General -> Workspace e marque a opção "Refresh using native hooks or polling"
 
 
-eclipse pCostJ jonatas dirf

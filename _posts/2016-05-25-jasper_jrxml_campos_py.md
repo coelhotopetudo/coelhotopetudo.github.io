@@ -3,7 +3,7 @@ layout: post
 title: Modificador de campos do jrxml em python
 ---
 
-# :map <Enter> :w <Bar> !python % <CR>
+```
 import os
 
 def montarOriginal(prefixo, arquivo):
@@ -76,5 +76,6 @@ if __name__ == "__main__":
   prefixo = 'bfcr'
   arquivo = 'DeclaracaoCompleta_BFC_RendTrib.jrxml'
   print montarOriginal(prefixo, arquivo)
-#  print exc('bfcj', 'DeclaracaoCompleta_BFC_Judicial.jrxml')
   print exc('bfci', 'DeclaracaoCompleta_BFC_RendIsento.jrxml')
+
+```

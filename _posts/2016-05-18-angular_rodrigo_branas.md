@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Angular.JS - Rodrigo Branas anotações'
+title: 'Angular.JS (v1) - Rodrigo Branas anotações'
 ---
 
 Anotações feitas sobre série de vídeos sobre Angular.JS (Versão 1) do Rodrigo Branas:
@@ -13,4 +13,4 @@ Anotações feitas sobre série de vídeos sobre Angular.JS (Versão 1) do Rodri
 * se o objeto tiver categoria (fixo, móvel), pode colocar um group by
 * video dele sobre array, video 9
 * no ng-include teve q colocar apostrofo para q o ng n procure no scope
-* falou p tomar cuidado com o chrome pois pode bloquear ajax
+* falou para tomar cuidado com o chrome pois pode bloquear ajax
