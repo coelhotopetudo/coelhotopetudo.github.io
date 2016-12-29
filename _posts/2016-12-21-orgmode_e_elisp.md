@@ -17,7 +17,7 @@ que no início pode parecer ruim, mas talvez assim seja bom, enfim...
 você vai se acostumar.
 [Artigo orgmode + elisp](http://www.theproductiveprogrammer.blog/do_today.el.php)
 
-Minhas anotações (pois sim, eu mesmo acesso meu próprio blog para relembrar, hehehe): 
+Minhas anotações (pois sim, eu mesmo acesso meu próprio blog para referência/relembrar, hehehe): 
 
 - O (interactive) dentro de uma função, permite-a ser chamada de qualquer lugar
 - Alt+Shift Enter cria um novo afazer
