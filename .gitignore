@@ -3,3 +3,4 @@ _site
 /static/ftemp.sql
 /Gemfile.lock
 /node_modules
+/bower_components
