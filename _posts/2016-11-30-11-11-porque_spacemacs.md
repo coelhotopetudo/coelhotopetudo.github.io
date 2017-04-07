@@ -12,6 +12,7 @@ Só para deixar claro: eu uso com modo vim (aka vim-style ou evil-mode).
 * layer org-mode (http://orgmode.org/) ainda estou no início do uso, mas só ter suporte a tags, já valeu *
 * necessidade configuração zero ou mínima;
 * documentação dos plugins e configurações de fácil acesso e leitura;*
+* transparência para quem trabalha com multi-janelas/multi-ambientes, por exemplo eu deixo ele visivel em todos os ambientes, mas com transparência de 85 quando inativo e 94 quando ativo, pq tb uso focus seguindo o mouse.
 * vem configurado para aproveitar ao máximo o tamanho da janela, sem barra de ferramentas e tal;
 * configurado com fd como escape key, não ter "uma escape key" faz uma falta tremenda quando uso meu teclado bluetooth que para enviar o "ESC" preciso apertar "FN+ESC";
 * funciona perfeitamente no termux, ou quase, tem uma ou duas coisas que não funcionam, mas nada que incomode;
