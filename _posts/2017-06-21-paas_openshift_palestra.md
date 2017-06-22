@@ -4,26 +4,28 @@ title: 'Palestra sobre PAAS com OpenShift Origin'
 separator: "^\n\n\n"
 excerpt: ''
 ---
-# Palestra sobre Nuvem - PAAS com OpenShift Origin
-* Alisson Coelho de Morais (coelhotopetudo@gmail.com) 
+# Nuvem - PAAS 
+* Alisson COELHO de Morais 
 
+![FTSL](http://ftsl.org.br/images/banners/Web275x95.png)
 
+![Parana TIC](http://www.paranatic.com.br/img/logo.svg)
 
-## OpenShift.org
-
-Note: Esse é o conteúdo da palestra do dia 23/jun/2017 ás 11h, e pode ser acessada [aqui (a palestra começa em 1h57min)](http://assiste.serpro.gov.br/supsd/video.php?nome=212037). Os [slides da apresentação podem ser acessados aqui](http://coelhotopetudo.github.io/static/reveal.js).
+Note: Esse é o conteúdo da palestra do dia 23/jun/2017 ás 11h, e pode ser acessada [aqui (a palestra começa em 1h57min)](http://assiste.serpro.gov.br/supsd/). Os (DEPOIS DE PRONTOS)[slides da apresentação podem ser acessados aqui](http://coelhotopetudo.github.io/static/reveal.js).
 
 
 
 ## O que é - Platform as a Service
-* Sem instalação, versão e incompatibilidades entre aplicação e SO
-* "Minha aplicação precisa de tal servidor de aplicações com tal banco de dados"
+* Sem instalação, versão e incompatibilidades entre aplicação e SO - "Minha aplicação precisa de tal servidor de aplicações com tal banco de dados"
+* Time-to-market 
 
 
 
-## Time-to-market
-* diminui o tempo em que o software se torna disponível 
 
+## OpenShift Origin
+* aplicações escaláveis (autoscale)
+* utiliza soluções consagradas e de código aberto (docker e kubernetes)
+* RedHat
 
 
 
@@ -37,12 +39,16 @@ Note: Esse é o conteúdo da palestra do dia 23/jun/2017 ás 11h, e pode ser ace
 ## Modelos de aplicações prontas 
   * Jenkins 
   * mapa usando nodejs/mongodb - https://github.com/ryanj/restify-postGIS
- 
+
+
 
 
 ## Administração
-  * criação/gerenciamento/publicação via:
-  * navegador, console, Rest API e plugin eclipse
+Criação/gerenciamento/publicação via:
+  * navegador [doc](https://docs.openshift.org/latest/architecture/infrastructure_components/web_console.html)
+  * console
+  * Rest API 
+  * plugin eclipse
 
 
 
@@ -63,12 +69,6 @@ Note: Esse é o conteúdo da palestra do dia 23/jun/2017 ás 11h, e pode ser ace
   * montagem do cluster 
   * criação de cartuchos
   * ambiente (VM/docker) para desenvolver cartuchos
-
-
-## aplicações escaláveis e de facil de escalar via we ou console admin
-## utiliza soluções consagradas e de código aberto (docker e kubernete)
-## RedHat
-
 
 
 
