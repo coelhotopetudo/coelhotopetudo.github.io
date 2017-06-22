@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Palestra sobre PAAS com OpenShift Origin'
+theme: solarized
 separator: "^\n\n\n"
 excerpt: ''
 ---
@@ -45,7 +46,7 @@ Note: Esse é o conteúdo da palestra do dia 23/jun/2017 ás 11h, e pode ser ace
 
 ## Administração
 Criação/gerenciamento/publicação via:
-  * navegador [doc](https://docs.openshift.org/latest/architecture/infrastructure_components/web_console.html)
+  * navegador ([exemplo](https://docs.openshift.org/latest/architecture/infrastructure_components/web_console.html))
   * console
   * Rest API 
   * plugin eclipse
