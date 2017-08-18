@@ -4,3 +4,7 @@
 * TODO atualizar tema para pixel, o do jekyll
 
 * TODO [#A] falar sobre o termux no blog                              :clhio:
+
+* TODO daquele video q t enviei, do cara do java, quando ele fala o pq eh bom nao sair da home row, ele fala que qdo se usa os control da vida, além de mover a mão, as vezes vc move a cabeca para localizar a tecla correta, podendo perder, mesmo q ligeiramente, o foco, não tinha pensando nisso, mas concordo com ele, e o spacemacs ajuda ainda mais por mudar a leader key (geralmente a tecla dois pontos) para  a tecla espaço
+https://www.youtube.com/watch?v=xSBN0bzXV2I
+
