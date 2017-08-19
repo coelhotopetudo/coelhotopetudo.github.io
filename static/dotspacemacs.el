@@ -310,23 +310,22 @@ before packages are loaded. If you are unsure, you should try in setting them in
 
 (defun coelhotopetudo/zpyex (arg)
   (interactive "P")
+  (evil-escape)
   (save-buffer)
   (setq compile-command (format "python %s" (file-name-nondirectory
                                              buffer-file-name)))
   (compile compile-command t))
 
+(defun coelhotopetudo/zmuescpy (arg)
+  (interactive "P")
+  (local-set-key (kbd "Multi_key") 'coelhotopetudo/zpyex)
+  )
 (defun coelhotopetudo/zfbpy (arg)
   (interactive "P")
   (save-buffer)
   (compile "python ~/git/coelhotopetudo.github.io/static/firebird.py" t)
   )
 
-(defun coelhotopetudo/zcedsave (arg)
-  (interactive "P")
-  (local-set-key (kbd "ç") 'save-buffer)
-  (local-set-key (kbd "jk") 'save-buffer)
-  (define-key evil-normal-state-map (kbd "DEL") 'coelhotopetudo/zpyex)
-  )
 
 (defun coelhotopetudo/zcedmatudo (arg)
   (interactive "P")
