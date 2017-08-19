@@ -302,7 +302,7 @@ before packages are loaded. If you are unsure, you should try in setting them in
 
 (defun coelhotopetudo/zmatudo (arg)
   (interactive "P")
-  (magit-stage-file "/home/00737990929/git/coisarada/tudo.md")
+  (magit-stage-file "/home/coelhotopetudo/git/coisarada/tudo.md")
   (magit-commit "-m spr")
   ;;(magit-push "origin" "master:refs/heads/master")
   (magit-push-current-to-upstream nil)
@@ -333,8 +333,8 @@ before packages are loaded. If you are unsure, you should try in setting them in
   (local-set-key (kbd "ç") 'coelhotopetudo/zmatudo))
 
 (defun dotspacemacs/user-config ()
-;; tentando fazer com q o anaconda-mode inicie normalmente  (add-to-list 'python-shell-extra-pythonpaths "/home/00737990929/git/coelhotopetudo.github.io/static/")
-  (setq magit-repository-directories '("/home/00737990929/git/"))
+;; tentando fazer com q o anaconda-mode inicie normalmente  (add-to-list 'python-shell-extra-pythonpaths "/home/coelhotopetudo/git/coelhotopetudo.github.io/static/")
+  (setq magit-repository-directories '("/home/coelhotopetudo/git/"))
   "Configuration function for user code.
 This function is called at the very end of Spacemacs initialization after
 layers configuration.
@@ -352,7 +352,7 @@ you should place your code here."
   (define-key evil-normal-state-map (kbd "RET") 'save-buffer)
  ;; (define-key evil-normal-state-map (kbd "DEL") 'spacemacs/zpyex)
   (setq eclim-eclipse-dirs "~/apl/eclipse-jee-mars2"
-        eclimd-default-workspace "/home/00737990929/workspace/eclim"
+        eclimd-default-workspace "/home/coelhotopetudo/workspace/eclim"
         eclim-executable "~/apl/eclipse-jee-mars2/eclim")
   )
 
