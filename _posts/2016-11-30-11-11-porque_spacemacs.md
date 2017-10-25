@@ -1,8 +1,11 @@
 ---
 layout: post
-title: 'spacemacs - entre nessa! Não se arrependerá!'
+title: 'spacemacs - torne-se um spacemagic!'
 comments: true
 ---
+
+Fiz um video explicando e mostrando um pouco do spacemacs, acesse em:
+[https://youtu.be/KCvHG2PlssQ](https://youtu.be/KCvHG2PlssQ)
 
 Abaixo estão alguns motivos do pq, após 3 meses de uso, continuo usando o [ spacemacs ](http://spacemacs.org) em 4 dispositivos (notebook, micro velho, micro do serviço e celular - com pouca ou nenhuma configuração):
 
