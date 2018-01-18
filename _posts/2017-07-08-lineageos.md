@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'LineageOS - reviva smartphones'
+title: 'LineageOS - reviva smartphones, tablets e afins'
 comments: true
 ---
 
