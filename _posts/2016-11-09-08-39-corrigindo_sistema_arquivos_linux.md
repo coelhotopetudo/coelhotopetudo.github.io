@@ -5,7 +5,7 @@ title: 'Corrigindo sistema de arquivos no Ubuntu linux'
 
 O computador da minha mãe, não estava iniciando, acusava algo como:
 
-failed group descriptors corrputed
+failed group descriptors corrupted
 
 e que não poderia montar o / (root) e abria um console com o busybox.
 
