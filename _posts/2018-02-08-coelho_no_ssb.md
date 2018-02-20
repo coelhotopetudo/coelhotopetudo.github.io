@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'CoelhoTopetudo no Scuttlebutt - SSB'
+title: 'CoelhoTopetudo no Secure Scuttlebutt - SSB'
 comments: true
 ---
 
