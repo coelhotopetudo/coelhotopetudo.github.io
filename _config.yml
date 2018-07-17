@@ -1,4 +1,5 @@
 name: Coisadara do COELHO
+baseurl: ""
 markdown: kramdown
 highlighter: rouge
 gems:
