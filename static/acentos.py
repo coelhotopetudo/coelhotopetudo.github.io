@@ -7,7 +7,7 @@ import os
 def remover_acentos(txt, codif='utf-8'):
   return normalize('NFKD', txt.decode(codif)).encode('ASCII','ignore').replace(' ', '').lower()
 
-with open('/home/alisson/Downloads/presentation_type.csv') as f:
+with open('/tmp/presentation_type.csv') as f:
   spamreader = csv.reader(f, delimiter=',', quotechar='"')
   for line in spamreader:
     desa = remover_acentos(line[1])
@@ -23,7 +23,7 @@ with open('/home/alisson/Downloads/presentation_type.csv') as f:
     arq.write(cabe)
     arq.close()
 
-with open('/home/alisson/Downloads/presentation_type.csv') as f:
+with open('/tmp/presentation_type.csv') as f:
   spamreader = csv.reader(f, delimiter=',', quotechar='"')
   for line in spamreader:
     cont = '### ' + line[3] + ': ' + line[2]
@@ -38,6 +38,6 @@ with open('/home/alisson/Downloads/presentation_type.csv') as f:
     desa = remover_acentos(line[1])
     open('/tmp/' + desa + '.md', 'a').write(cont)
 
-os.system('cp /tmp/antoniogomide.md /home/alisson/temp/jones/convidados/_posts/2017-06-10-antoniogomide.md')
+# os.system('cp /tmp/antoniogomide.md ~/temp/jones/convidados/_posts/2017-06-10-antoniogomide.md')
 res = 'fim'
 print res
