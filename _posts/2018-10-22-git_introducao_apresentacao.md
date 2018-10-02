@@ -6,6 +6,94 @@ separator: "^\n\n\n"
 excerpt: 'Conteúdo da palestra para mostrar como é fácil compartilhar suas idéias com GitLab/GitHub, seja com seus próprios projetos ou em outros. Abordaremos como criar um repositório e também os conceitos fork e pull-request para colaborar com outros desenvolvedores. Link para vídeo no post.'
 ---
 
+# a - intro
+* basico (mas mto tempo)
+* minhas colaboracoes (1 no learn x in y minutes e muitas p/FTSL passados)
+* diariamente para organizacao
+
+
+
+# b - o que eh SCM
+* nao entre em panico
+* foto dos arquivos
+
+
+
+# c - git
+* SCM distribuido (repo completo)
+* SL
+* SSB (servidor distribuido)
+
+
+
+# d - quem fez (historia)
+* Linus
+* tarball e bitkeeper
+
+
+
+# e - p/q serve
+* colaborar (varias alteracoes locais)
+* "bkp local"
+* atualizacao de SL (spacemacs/oh-my-zsh)
+
+
+
+# f - quem usa
+* kernel, Red Hat
+* facebook, google, Microsoft (compra GitHub)
+
+
+
+
+# g - conceitos
+* repo local
+* repo remoto
+
+
+
+
+# h - comandos
+* clone
+* commit
+* pull *** (evita merge commit)
+* push
+* todos com 'git' na frente ***
+
+
+
+
+# i - afamados fork e pr
+* badge
+* colaboracao facilitada (soh aparece o que mudou)
+* copia do repo
+* pode nao ser aceito
+* merge
+* contrib.md
+
+
+
+# J - servicos
+* GitHub (+ social, maioria, privado pago)
+* GitLab (SL - empresas)
+* outros (bitbucket)
+* SSB
+
+
+
+# k - referencias
+* http://git-scm.com
+
+
+
+# l - curriculo
+* python Curitiba
+* GitHub mostra quais projetos colaborou
+
+
+
+
+
 em poucas palavras: o git vai facilitar a colaboracao pois quem receberah as alteracoes,
 verah somente oq e onde foi alterado.
 
