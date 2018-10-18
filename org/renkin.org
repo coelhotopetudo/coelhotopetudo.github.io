@@ -1,0 +1,199 @@
+[MHXX] Renkin/Alchemy short summary
+
+The terms Alchemy and Renkin are used interchangebly.
+
+* SP
+
+Renkin can achieve 4 levels of SP (Style Powerup).
+
+All hunting styles have access to SP 1 and can only set 1 HA to SPHA.
+While Renkin can go up to SP4, and Renkin can set all 3 HA to SPHA.
+
+According to the [[http://www.capcom.co.jp/monsterhunter/XX/action/main/03.html][official page]]
+
+-  *SP 1 (Yellow)* Power up each style differently
+
+-  *SP 2 (Orange)* 1 + Stamina gauge takes longer to reduce its max size
+
+-  *SP 3 (Red)* 1 + 2 + auto health regen
+
+-  *SP 4 (Purple)* 1 + 2 + 3 + More stagger (I think)
+
+And HA set to use SP will charge slower (by [[/u/Ivalia]])
+
+* Renkin & SP
+
+When you transmute different items, you will upgrade your SP level; but
+it will not replace your current SP, not until you reactivate another
+SPHA. For example, currently I have SP2 active, I transmute an item with
+my renkin barrel and gain SP3, all my SPHA will switch from orange
+highlights to red highlights, but my SP2 remains active. SP3 will
+activated whenever I activated the red SPHA.
+
+Many thanks to [[/u/ivalia]] for figuring out the mechanics. You need to
+spent a certain amount of gauge to upgrade your SP.
+
+| Total Gauge spent   | Sp level gain   |
+|---------------------+-----------------|
+| 2                   | 2               |
+| 5                   | 3               |
+| 12                  | 4               |
+
+My test cases (referring to the item table below, 3A is level 3
+transmutation with A button)
+
+-  3A (SP2) + 1A + 1A (SP3) + 2X + 3X + 3A (SP4)
+
+-  3A (SP2) + 2X (SP3) + 5X + 1A + 1X (SP4)
+
+-  2X (SP2) + 3A(SP3)
+
+* Renkin item list
+
+[[http://www.capcom.co.jp/monsterhunter/XX/action/main/02.html][Source]] + in-game description
+
+| Level   | Button   | Item               | Effect                                                 | How to use                                 |
+|---------+----------+--------------------+--------------------------------------------------------+--------------------------------------------|
+| 1       | X        | Renkin Food        | Restore small amount of stamina                        | Use from pouch                             |
+| 1       | A        | Renkin Whetstone   | Whetstone for BM. Increase HA charge rate. You get 1   | Just like a normal whetstone               |
+| 1       | A        | Renkin Ammo        | Ammo for LBG/HBG, Increase HA charge rate              | Load it the same way you would load ammo   |
+| 1       | A        | Renkin Coating     | Bow Coating for Bow user. Increase HA charge rate      | Use it like a coating                      |
+
+| Level   | Button   | Item           | Effect                                                                                                                   | How to use                                                                |
+|---------+----------+----------------+--------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------|
+| 2       | X        | Immunizer      | Slow auto health regen                                                                                                   | Use from pouch                                                            |
+| 2       | A        | Sonic Barrel   | Generate small noise in barrel (or it could simply a visual effect). Launch a standard sonic bomb when activated again   | Use from pouch. Y to pull out a barrel, Y again to release a sonic bomb   |
+
+| Level   | Button   | Item      | Effect                                                                                                     | How to use                           |
+|---------+----------+-----------+------------------------------------------------------------------------------------------------------------+--------------------------------------|
+| 3       | X        | Earplug   | Essentially the MH4U emergency earplug item                                                                | Auto applied when it is transmuted   |
+| 3       | A        | 速振薬    | Increase renkin gauge charge rate. Change your renkin gauge to white. Faster renkin shake and transmute.   | Use from pouch                       |
+
+| Level   | Button   | Item                 | Effect                                                                       | How to use                    |
+|---------+----------+----------------------+------------------------------------------------------------------------------+-------------------------------|
+| 4       | X        | フエール (Pickaxe)   | Description says it can combine with other renkin items                      | Combine like normal recipes   |
+| 4       | A        | Bazooka              | Big slow boom, in an arc, off a barrel. You get 2 from a single transmute.   | Press Y to use                |
+
+| Level   | Button   | Item             | Effect                                                                                                                                                       | How to use                                    |
+|---------+----------+------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------|
+| 5       | X        | 気合玉           | Increase HA and prowler support gauge for those in close proximity. AOE range similar to a deodorant                                                         | Use from pouch                                |
+| 5       | A        | Healing Barrel   | looks like a small health over time while you are holding the barrel (or it could simply a visual effect). Large heal and cleanse when activate the barrel   | Y to pull out a barrel, Y again to activate   |
+
+* Weapons
+
+Short summaries on major changes in moves.
+
+*Greatsword*
+
+-  No strong charge slash
+
+-  A+A will give you a side slash + strong charge slash finisher (but I
+   don't think it will have the MV or power of the regular version
+
+*Longsword*
+
+-  X for normal attacks
+
+-  A for fade slash
+
+-  R for spirit combo, you cannot sneak in X or A for additional attacks
+
+-  No fade slash -> spirit
+
+*Sword and Shield*
+
+-  No backhop
+
+-  Basically Striker, with 1 or 2 missing move, but the combo tree is
+   pretty much still intact
+
+*Dual Blade*
+
+-  No spinning demon slash, we are going back to the normal run-in
+   scissor slash.
+
+*Hammer*
+
+-  No lv3 spinning into super swing, just super pound
+
+-  Basically Guild without the spinning thing.
+
+*Hunting Horn*
+
+-  No neutral XA backslam.
+
+-  XA backslam is only accessible by doing XA (super pound) -> XA
+   (backslam)
+
+*Lance*
+
+-  No counter
+
+-  You can do R+X (guard-poke) -> X or A -> X or A
+
+-  You can do shield-advance with forward+RX or forward+RA
+
+*Gunlance*
+
+-  No charged shot
+
+-  Faster Wyvern fire
+
+-  No X>X>XA (upswing), or X>XA(upswing)
+
+*Switch Axe*
+
+Sword Mode
+
+-  A (side slash) > X (morph, axe-side-slash)
+
+-  A (side slash) > A (double cross slash) > R or X (morph,
+   axe-side-slash)
+
+Axe mode
+
+-  X (overhead slash) > R or A (morph, sword-overhead-slash)
+
+-  X (forward thrust) > R or A (morph, sword-overhead-slash)
+
+-  A (side slash) > A (forward thrust) > R or A (morph,
+   sword-overhead-slash)
+
+*Charge Blade*
+
+Sword Mode
+
+-  Pressing XA will do a auto AED-into-shield charge. No shield will
+   charge to yellow shield. Yellow will charge to yellow. Red charge to
+   red.
+
+-  Holding A will auto release when it hits the optimal timing
+
+Axe Mode
+
+-  No ultra AED, XA will do AED 3.
+
+*Insect Glaive*
+
+-  No infinite combo, it is either X->X (finisher) or X->A (finisher)
+
+-  No A backflip
+
+-  No kinsect charging
+
+*Light Bowgun*
+
+-  2 maximum side-step/back-step
+
+*Heavy Bowgun*
+
+-  No siege
+
+*Bow*
+
+B (back-step) -> B (back-roll) -> R (charging)
+
+No powershot, only curve shot
+
+* Source
+https://www.reddit.com/r/MonsterHunter/comments/5ubcsj/spoilersmhxx_renkinalchemy_short_summary/
