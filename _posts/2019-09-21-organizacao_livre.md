@@ -1,3 +1,8 @@
+---
+layout: post
+title: Organização Livre (palestra)
+---
+
 # links
 
 - [configuracao (dotspacemacs) do coelho](http://coelhotopetudo.github.io/static/dotspacemacs.el)
