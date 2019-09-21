@@ -7,7 +7,8 @@ function inicial() {
 function utilEscreverLinks() {
  var funcoes = 
   [
-   {id: 'gerarSeleniumJumpBoy', title: "Colar a ordem dos dias (um para cada linha)"},
+   {id: 'gerarSeleniumJumpBoy', title: "Colar a ordem dos dias (um para Cada linha)"},
+      {id: 'descodSel', title: "Colar a ordem dos dias (um para cada linha)"},
    {id: 'gerarLine', title: "Com base em <label>=<valor> gera i:group para ser usado dentro do i:line"}
    , {id: 'gerarMesasFinalIp', title: "lista de ips para gerar os links necessarios para facilitar o acesso"}
    , {id: 'gerarPcolumn', title: "Com base em <label> gera p:column para ser usado dentro do dataTable, aponta para #{bean}"}
@@ -231,3 +232,17 @@ function gerarSeleniumJumpBoy() {
     resultado.value += res; 
   }
 }
+function descodSel() {
+         var texto = document.getElementById("texto").value;
+         var linhas = texto.split("\n");
+         var resultado = document.getElementById("resultado");
+         resultado.value = '';
+         for (var i = 0; i < linhas.length; i++) {
+                                                  var dados = linhas[i];
+                                                  var res = ' <tr> <td>clickAndWait</td> <td>link=' + dados + '</td> <td></td> </tr>';
+                                                  res += '<tr> <td>select</td> <td>id=CBOcboOcorrencia4</td> <td></td> </tr>';
+             res += '<tr> <td>type</td> <td>id=cboOcorrencia4</td> <td></td> </tr>';
+                                                  res += '<tr> <td>clickAndWait</td> <td>id=submit1</td> <td></td> </tr>';
+                                                  resultado.value += res; 
+                                                  }
+         }
