@@ -6,7 +6,7 @@ comments: true
 
 Algumas dicas para uso do vi/vim/spacemacs. Pode ser que sejam bem básicas, mas... pretendo ir atualizando sempre que for surgindo novas.
 
-Hoje utilizo o spacemacs (estou formulando um post sobre ele, fiquem atentos!) para quase tudo que envolve texto (desde programar, lista de tarefas, anotações), mas sempre usando a forma vi/vim para editar os textos (evil-mode). Tudo começou com o vim, em uma época que estava entedeado, e hoje tenho dificuldades em usar o shift para selecionar algo ou teclas como home/end/control/setas para mover o cursor, hehehe mas me divertindo muito!!!
+Hoje utilizo o spacemacs (estou formulando um post sobre ele, fiquem atentos!) para quase tudo que envolve texto (desde programar, lista de tarefas, anotações), mas sempre usando a forma vi/vim para editar os textos (evil-mode). Tudo começou com o vim, em uma época que estava entediado, e hoje tenho dificuldades em usar o shift para selecionar algo ou teclas como home/end/control/setas para mover o cursor, hehehe mas me divertindo muito!!!
 
 * 'y y' copia a linha para a área de transferência
 * o "~" serve para alternar a casa (caixa alta ou baixa) de um caracter ou palavra(s) selecionada(s)
